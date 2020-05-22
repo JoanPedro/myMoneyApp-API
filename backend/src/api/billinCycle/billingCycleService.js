@@ -1,12 +1,15 @@
 const BillingCycle = require('./billinCycle');
-const errorHandler = require('../common/errorHandler');
 
 BillingCycle.methods(['get', 'post', 'put', 'delete']);
+
 BillingCycle.updateOptions({
   new: true,
   runValidate: true,
 });
+<<<<<<< HEAD
 BillingCycle.after('post', errorHandler).after('put', errorHandler).after('get', errorHandler);
+=======
+>>>>>>> parent of a75b7ad... Adiciona Error Handler
 
 BillingCycle.route('count', (req, res, next) => {
   BillingCycle.countDocuments((error, value) => {

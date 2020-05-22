@@ -10,5 +10,5 @@ Projeto para gerenciamento de finanças. [Project]
 | /api/billingCycles/1     |  GET                | Consulta o ciclo de ID=1     |
 | /api/billingCycles/1     |  PUT                | Altera o ciclo de ID=1       |
 | /api/billingCycles/1     |  DELETE             | Remove o ciclo de ID = 1     |
-| /api/billingCycles/count |  Célula de conteúdo | Consulta a qtde de ciclos    |
-|  /api/billingCycles      |  Célula de conteúdo | consulta o sumário de ciclos |
+| /api/billingCycles/count |  GET                | Consulta a qtde de ciclos    |
+|  /api/billingCycles      |  GET                | consulta o sumário de ciclos |

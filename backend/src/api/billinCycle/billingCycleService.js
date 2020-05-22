@@ -6,11 +6,10 @@ BillingCycle.updateOptions({
   new: true,
   runValidate: true,
 });
-BillingCycle.after('post', errorHandler)
-  .after('put', errorHandler);
+BillingCycle.after('post', errorHandler).after('put', errorHandler).after('get', errorHandler);
 
 BillingCycle.route('count', (req, res, next) => {
-  BillingCycle.count((error, value) => {
+  BillingCycle.countDocuments((error, value) => {
     if(error) {
       res.status(500).json({errors: [error]})
     } else {

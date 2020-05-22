@@ -8,3 +8,5 @@ server.use(express.json())
 server.listen(PORT, _ => {
   console.log(`BACKEND is running on port ${PORT}`)
 })
+
+module.exports = server

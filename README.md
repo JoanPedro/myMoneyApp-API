@@ -2,7 +2,7 @@
 Projeto para gerenciamento de finanças. [Project]
 
 ## Objetivos
-Aplicar todos os conceitos importantes do React & uma API Rest com Node-restful usando como serviço o MongoDB.
+Aplicar todos os conceitos importantes de API Rest com Node-restful usando como serviço o MongoDB.
 
 ## Rotas
 
